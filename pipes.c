@@ -6,7 +6,9 @@
 #include<unistd.h>
 #include<sys/wait.h>
 #include<string.h>
+
 #define BUFFER_SIZE 50
+
 int main(int para,char* files[])
 {
 int fd[2];
